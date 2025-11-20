@@ -1,4 +1,4 @@
-package Level2.Ex2;
+package Level2.Ex1;
 
 public class Main {
     public static void main(String[] args) {

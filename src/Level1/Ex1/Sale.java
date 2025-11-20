@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sale {
-    private List<Product> prodcutList;
+    private List<Product> productList;
     private double totalPrice;
 
     public Sale() {
-        this.prodcutList = new ArrayList<>();
+        this.productList = new ArrayList<>();
     }
 
     public Sale(List<Product> prodcutList) {
-        this.prodcutList = new ArrayList<>(prodcutList);
+        this.productList = new ArrayList<>(prodcutList);
     }
 
     public double getTotalPrice() {
@@ -20,9 +20,9 @@ public class Sale {
     }
 
     public void calculateTotalPrice() throws EmptySellException {
-        if(prodcutList.isEmpty()) throw new EmptySellException("To make a sale you must first add products.");
+        if(productList.isEmpty()) throw new EmptySellException("To make a sale you must first add products.");
 
-        for(Product p : prodcutList) {
+        for(Product p : productList) {
             this.totalPrice += p.getPrice();
             System.out.println(totalPrice);
         }
@@ -31,7 +31,7 @@ public class Sale {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        for(Product p : prodcutList) {
+        for(Product p : productList) {
             sb.append(p.getName()).append("\t").append(p.getPrice()).append("\n");
         }
         return sb.toString();
