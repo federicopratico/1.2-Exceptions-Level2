@@ -6,7 +6,7 @@ This repository contains a set of practical Java exercises designed to master **
 ## 📚 Exercise Details
 
 ### Level 1: Custom Exceptions & Collections
-**Exercise 1: Sales Management**
+**Exercise 1:**
 The objective is to manage a list of products and handle errors when attempting to process empty sales.
 
 * **Classes:**
@@ -15,7 +15,7 @@ The objective is to manage a list of products and handle errors when attempting 
 * **Logic:**
     * The `Sale` class has a method `calculateTotal()`.
     * If the product collection is empty, it must throw a custom exception named **`EmptySaleException`**.
-    * If products exist, it iterates through the collection to sum the prices.
+    * If products exist, it iterates through the collection to sum the prices and save the results in `totalPrice` attribute.
 * **Exception Handling:**
     * `EmptySaleException` must extend the standard `Exception` class.
     * The constructor accepts the message: *"To make a sale you must first add products"*.
