@@ -45,7 +45,6 @@ The goal is to create an `Input` class that wraps the Java `Scanner` to handle d
 
 ## 💻 Technologies Used
 * **Java 21** - Core language for logic and exception handling.
-* **JUnit 5** (Optional) - For testing exception throwing.
 * **IDE** (IntelliJ IDEA / Eclipse) - Development environment.
 * **Git** - Version control.
 
@@ -59,11 +58,16 @@ The goal is to create an `Input` class that wraps the Java `Scanner` to handle d
 ## 🛠️ Installation
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/your-username/java-exceptions-exercises.git](https://github.com/your-username/java-exceptions-exercises.git)
+    git clone https://github.com/federicopratico/1.2-Exceptions-Level2
     ```
+    or with SSH:
+    ```bash
+    git clone git@github.com:federicopratico/1.2-Exceptions-Level2.git
+    ```
+    
 2.  Navigate to the project directory:
     ```bash
-    cd java-exceptions-exercises
+    cd 1.2-Exceptions-Level2
     ```
 3.  Open the project in your preferred IDE.
 
@@ -72,9 +76,9 @@ Each level is separated into its own package. To run the exercises:
 
 1.  **Compile the project** using your IDE or terminal.
 2.  **Run Level 1:**
-    Find the `Main` class in the `n1exercise1` package and run it to see the Custom Exception logic.
+    Find the `Main` class in the `Level1/Ex1` package and run it to see the Custom Exception logic.
 3.  **Run Level 2:**
-    Find the `Main` class in the `n2exercise1` package. This will trigger the console prompts to test the `Input` class validation.
+    Find the `Main` class in the `Level2/Ex2` package. This will trigger the console prompts to test the `Input` class validation.
 
 ## 🤝 Contributions
 Contributions are welcome! If you find a bug or want to add a new complexity level:
